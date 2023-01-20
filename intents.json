@@ -1,0 +1,213 @@
+{"intents": [
+    {"tag": "noanswer",
+        "patterns": [""],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "greeting",
+     "patterns": ["Hola", "Hola, soy facundo", "Buenas, como estas?","Buenas","Buenos Dias", "Te escribo por los iphones", "como estas?", "Buenas amigo","Che como estas?", "Me llamo","Yo soy","Me llaman"],
+     "responses": ["Buenas","Hola","Todo bien"],
+     "context": [""]
+    },
+    {"tag": "yes",
+        "patterns": ["tenes iphone?","tenes esto?","vendes iphone?","hay en negro"],
+        "responses": ["Si"],
+        "context": [""]
+    },
+    {"tag": "tengo",
+        "patterns": ["tengo 20mil","te doy por 40mil","te lo doy por pesos","te puedo dar mil pesos","te doy mil pesos por el iphone","te doy por los iphone 20mil", "tengo mil pesos"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "which",
+        "patterns": ["Que iphones tenes","que models tenes?","que tipo de modelos tienes en stock","cuales iphones tenes?"],
+        "responses": ["Que modelo de iPhone estas buscando?"],
+        "context": [""]
+    },
+    {"tag": "ya",
+        "patterns": ["Lo quiero ya!","lo quiero ahora","lo necesito ya","dame tu numero","dame tu whatsapp","Ya el telefono"],
+        "responses": ["Mi numero es 098 559 972"],
+        "context": [""]
+    },
+    {"tag": "gb",
+        "patterns": ["cuanta memoria tiene?","cuantos gb tiene?","cuanta memoria tiene","cuantos giga bytes tiene?","cual es el espacio que tiene?","que memorias hay?"],
+        "responses": ["Tengo de 64gb a 256gb","que memoria estas buscando?","tengo diferentes memorias, cual estas buscando? 64gb? 128gb? 256gb?"],
+        "context": [""]
+    },
+    {"tag": "64gb",
+        "patterns": ["tiene 64gb?","tiene espacio de 64gb?","tiene 64gb de espacio?","el telefono posee 64gb?","son 64 giga bytes","tenes el de 64gb","hay de 64 gigas","tenes el que es de 64gb","esta el de 64gb","se encuentra el de 64gb","64gb"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "128gb",
+        "patterns": ["tiene 128gb?","tiene espacio de 128gb?","tiene 128gb de espacio?","el telefono posee 128gb?","son 128 giga bytes","tenes el de 128gb","hay de 128 gigas","tenes el que es de 128gb","esta el de 128gb","se encuentra el de 128gb","128gb"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "256gb",
+        "patterns": ["tiene 256gb?","tiene espacio de 256gb?","tiene 256gb de espacio?","el telefono posee 256gb?","son 256 giga bytes","tenes el de 256gb","hay de 256 gigas","tenes el que es de 256gb","esta el de 256gb","se encuentra el de 256gb","256gb"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "permutas",
+        "patterns": ["Permutas?", "Permutas este perro?", "Te puedo permutar?","te puedo intercambiar algo?","te puedo permutar una camioneta","permutas?","permuto","yo permuto", "podes permutar?","podes intercambiar","intercambias por algo?","te puedo dar un algo a cambio","quere un perro?","permutas","tomas un telefono nuevo?","tomas un perro","tomas esto que vale 20.000"],
+        "responses": ["Agradezco pero no permuto, solo vendo","No permuto, agradezco la oferta pero solo vendo","Agradezco la oferta pero solo vendo"],
+        "context": [""]
+    },
+    {"tag": "disponible",
+        "patterns": ["Esta disponible?","Disponible?","Esta en stock?","Se encuentra disponible?","Hola, esta disponible","está disponible","lo tenes todavia","esta todavia"],
+        "responses": ["Si, esta disponible"],
+        "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["chau", "nos vemos", "adios", "muchas suerte","adios"],
+     "responses": ["Chau", "Dale, tranqui", "suerte"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Muchas gracias", "Gracias", "Te agradezco", "Muchisimas gracias", "Te re agradezco","muchas gracias, te agradezco", "te lo agradezco"],
+     "responses": ["De nada", "Feliz de ayudar", "No hay problema","Dale tranqui"],
+     "context": [""]
+    },
+    {"tag": "where?",
+     "patterns": ["De donde sos?", "Me podes mandar?", "Yo soy de melo", "Yo soy de ", "Yo vivo en ", "De donde venis?", "De que parte sos?","estas en ","donde nos podemos encontrar","De que parte sos?","Mandas a domicilio?"],
+     "responses": ["Vendo por todo maldonado, pero si no vivis ahí te lo puedo entregar pero va a demorar mas tiempo", "Yo vendo en Maldonado ahora, si vivis en otro departamento te puedo enviar a alguien pero va a demorar mas tiempo"],
+     "context": [""]
+    },
+    {"tag": "import?",
+        "patterns": ["son importados?", "los iphone son importados?", "los importas?", "you are awesome", "You are so cool","You are the best","Best Firend I have"],
+        "responses": ["Son facturados, cuento con unipersonal", "Si, son importados y facturados","Cuento con unipersonal"],
+        "context": [""]
+    },
+    {"tag": "when?",
+        "patterns": ["cuando llegan?", "cuando?", "Cuando me los podrias dar?", "Cuando llegarian?", "Cuando podrias estar aca?"],
+        "responses": ["Entre este viernes y el que viene!", "Este viernes o el que viene", "Podria ser este viernes, o sino el que viene"],
+        "context": [""]
+    },
+    {"tag": "answer",
+        "patterns": ["Dale", "Ok", "Dale impecable","Impecable","Dale genial","Dale de una"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "iPhone8",
+        "patterns": ["Cuanto cuesta el iphone 8?", "Cuanto por el iphone 8?", "cuanto vale el iphone 8?","cuanto el iphone 8?","cual es el valor del iphone 8?","cual es el valor del iphone 8?","cuanto te sale el iphone 8?","quiero el iphone 8?","el iphone 8 en blaco","tenes el iphone 8","el iphone 8", "el 8"],
+        "responses": ["250$ por el 8", "250 Dolares por el iphone 8", "Cuesta 250 Dolares por el 8"],
+        "context": [""]
+    },
+    {"tag": "iPhone8 Plus",
+        "patterns": ["Cuanto cuesta el iphone 8 Plus?", "Cuanto por el iphone 8 Plus?", "cuanto vale el iphone 8 Plus?","cuanto el iphone 8 Plus?","cual es el valor del iphone 8 Plus?","cual es el valor del iphone 8 Plus?","cuanto te sale el iphone 8 Plus?","quiero el iphone 8 Plus?","el iphone 8 Plus en blaco","tenes el iphone 8 Plus"],
+        "responses": ["360$ por el 8 Plus de 64gb y 440$ por el iphone 8 de 256gb", "360 Dolares por el iphone 8 Plus y 440 Dolares por el iphone 8 de 256gb", "Cuesta 360 Dolares por el 8 Plus y 440 Dolares por el iphone 8 de 256gb"],
+        "context": [""]
+    },
+    {"tag": "iPhoneX",
+        "patterns": ["Cuanto cuesta el iphone X?", "Cuanto por el iphone X?", "cuanto vale el iphone X?","cuanto el iphone X?","cual es el valor del iphone X?","cual es el valor del iphone X?","cuanto te sale el iphone X?","quiero el iphone X?","el iphone X en blaco","tenes el iphone X","el iphone X", "el X"],
+        "responses": ["365$ por el X", "365 Dolares por el iphone X", "Cuesta 365 Dolares por el X"],
+        "context": [""]
+    },
+    {"tag": "iPhoneXS Max",
+        "patterns": ["Cuanto cuesta el iphone XS Max?", "Cuanto por el iphone XS Max?", "cuanto vale el iphone XS Max?","cuanto el iphone XS Max?","cual es el valor del iphone XS Max?","cual es el valor del iphone XS Max?","cuanto te sale el iphone XS Max?","quiero el iphone XS Max?","el iphone XS Max en blaco","tenes el iphone XS Max de 64gb","el iphone XS Max", "el XS Max","cuanto cuesta el xs max","cuanto es el xs max de 64gb","cuanto es el xs max"],
+        "responses": ["575$ por el XS Max de 64gb", "575 Dolares por el iphone XS Max de 64gb", "Cuesta 575 Dolares por el XS Max de 64gb"],
+        "context": [""]
+    },
+    {"tag": "iPhone11 caja",
+        "patterns": ["Cuanto cuesta el iphone 11?", "Cuanto por el iphone 11en caja sellado?", "cuanto vale el iphone 11 de 64gb sellado?","cuanto el iphone 11 sellado?","cual es el valor del iphone 11 en caja sellado?","cual es el valor del iphone 11 en caja sellado?","cuanto te sale el iphone 11 de 64gb en caja sellado?","quiero el iphone 11 de 64gb en caja sellado?","el iphone 11 de 64gb en caja sellado en blaco","tenes el iphone 11 de 64gb en caja sellado","el iphone 11 de 64gb en caja sellado", "el 11 de 64gb en caja sellado"],
+        "responses": ["535$ por el 11 de 64gb en caja sellado", "535 Dolares por el iphone 11 de 64gb en caja sellado", "Cuesta 535 Dolares por el 11 de 64gb en caja sellado"],
+        "context": [""]
+    },
+    {"tag": "iPhone11",
+        "patterns": ["Cuanto cuesta el iphone 11?", "Cuanto por el iphone 11?", "cuanto vale el iphone 11?","cuanto el iphone 11?","cual es el valor del iphone 11?","cual es el valor del iphone 11?","cuanto te sale el iphone 11?","quiero el iphone 11?","el iphone 11 en blaco","tenes el iphone 11","el iphone 11", "el 11"],
+        "responses": ["500$ por el 11 de 64gb y 540$ por 128gb", "500 Dolares por el iphone 11 de 64gb ", "Cuesta 500 Dolares por el 11 de 64gb y 540$ por el iphone 11 de 128gb"],
+        "context": [""]
+    },
+    {"tag": "iPhone11 pro",
+        "patterns": ["Cuanto cuesta el iphone 11 pro?", "Cuanto por el iphone 11 pro?", "cuanto vale el iphone 11 pro?","cuanto el iphone 11 pro?","cual es el valor del iphone 11 pro?","cual es el valor del iphone 11 pro?","cuanto te sale el iphone 11 pro?","quiero el iphone 11 pro?","el iphone 11 pro en blaco","tenes el iphone 11 pro","el iphone 11 pro", "el 11 pro"],
+        "responses": ["700$ por el 11 pro de 64gb y 730$ por el 11 pro de 256gb y 780$ por el 11 pro de 512gb", "700 Dolares por el iphone 11 pro de 64gb y 730$ por el 11 pro de 256gb y 780$ por el 11 pro de 512gb", "Cuesta 700 Dolares por el 11 pro de 64gb y 730$ por el 11 pro de 256gb y 780$ por el 11 pro de 512gb"],
+        "context": [""]
+    },
+    {"tag": "iPhone11 pro max",
+        "patterns": ["Cuanto cuesta el iphone 11 pro max?", "Cuanto por el iphone 11 pro max?", "cuanto vale el iphone 11 pro max?","cuanto el iphone 11 pro max?","cual es el valor del iphone 11 pro max?","cual es el valor del iphone 11 pro max?","cuanto te sale el iphone 11 pro max?","quiero el iphone 11 pro max?","el iphone 11 pro max en blaco","tenes el iphone 11 pro max","el iphone 11 pro max", "el 11 pro max"],
+        "responses": ["800$ por el 11 pro max de 64gb", "800 Dolares por el iphone 11 pro max de 64gb", "Cuesta 800 Dolares por el 11 pro max de 64gb"],
+        "context": [""]
+    },
+    {"tag": "iPhone13",
+        "patterns": ["Cuanto cuesta el iphone 13?", "Cuanto por el iphone 13?", "cuanto vale el iphone 13?","cuanto el iphone 13?","cual es el valor del iphone 13?","cual es el valor del iphone 13?","cuanto te sale el iphone 13?","quiero el iphone 13?","el iphone 13 en blaco","tenes el iphone 13","el iphone 13", "el 13"],
+        "responses": ["1050$ por el 13 de 128gb", "1050 Dolares por el iphone 13 de 128gb", "Cuesta 1050 Dolares por el 13 de 128gb"],
+        "context": [""]
+    },
+    {"tag": "colours",
+        "patterns": ["que colores tenes?", "que colores hay?", "que colores tenes?","que colores puedo encontrar?","en que colores se encuentran lo iphones","en que colores se encuentran","que colores hay?"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "gold",
+        "patterns": ["Tenes gold?", "tenes dorado?", "tenes el color dorado?","tienes el color gold?","tienes el color amarillo?","tenes el color gold en stock","alguno dorado tenes?","esta en gold?","esta en oro","tenes en oro","estoy interesado en el gold","estoy interesado en el oro","estoy interesado en el dorado","estoy interesado en el amarillo"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "black",
+        "patterns": ["Tenes black?", "tenes negro?", "tenes el color negro?","tienes el color black?","tienes el color negro?","tenes el color negro en stock","alguno black tenes?","esta en black?","esta en negro","tenes en black","estoy interesado en el negro","estoy interesado en el black"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "blue",
+        "patterns": ["Tenes blue?", "tenes azul?", "tenes el color blue?","tienes el color azul?","tienes el color blue?","tenes el color azul en stock","alguno blue tenes?","esta en blue?","esta en azul","tenes en blue","estoy interesado en el blue","estoy interesado en el azul"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "green",
+        "patterns": ["Tenes green?", "tenes verde?", "tenes el color verde?","tienes el color gold?","tienes el color verde?","tenes el color verde en stock","alguno green tenes?","esta en verde?","esta en green","tenes en verde","estoy interesado en el green","estoy interesado en el verde"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "white",
+        "patterns": ["Tenes blanco?", "tenes white?", "tenes el color blanco?","tienes el color blanco?","tienes el color white?","tenes el color blanco en stock","alguno blanco tenes?","esta en white?","esta en blanco","tenes en blanco","estoy interesado en el blanco","estoy interesado en el blanco"],
+        "responses": ["Dejame ver si tengo","Voy a checkear","espera que me fijo"],
+        "context": [""]
+    },
+    {"tag": "offer",
+        "patterns": ["Oferta?", "te puedo hacer una oferta?", "te puedo dar precio?","te puedo tirar oferta?", "acepta un iphone 12?","aceptas un iphone 13?","tengo el 10 astillado y plata","Tengo un 8 y plata","Tomas un 8?","Tomas un ocho y plata?","aceptas un 12"],
+        "responses": ["No perdon, solo vendo a un precio"],
+        "context": [""]
+    },
+    {"tag": "location",
+        "patterns": ["Yo vivo en madlonado", "Yo vivo en montevideo", "Yo trabajo cerca de la plaza","estoy cerca de maldonado","vivo en lavalleja","trabajo en la calle","estoy cerca","Donde lo podria ver?","Donde vendes?"],
+        "responses": ["Yo vivo en las sonrisas"],
+        "context": [""]
+    },
+    {"tag": "battery",
+        "patterns": ["cual es la bateria?","cuanto es la bateria del telefono?","cuanta bateria tiene?","la bateria es 80%?","son mas de 90%?","tinen mucha bateria?","cuanta bateria tiene?","que tiene la bateria?","que bateria tiene?","cuanto contiene la bateria?"],
+        "responses": [""],
+        "context": [""]
+    },
+    {"tag": "ver",
+        "patterns": ["se puede ver?","podria ver el telefono?","se podria ver?","lo puedo ver?"],
+        "responses": ["Dale, Sin compromisos","Si, sin compromisos"],
+        "context": [""]
+    },
+    {"tag": "boleta",
+        "patterns": ["Hola Lautaro lo tienes con boleta?","vienen con boleta?","tenes con boleta","los telfonos tienen boleta?","esta con boleta?","boleta?"],
+        "responses": ["Si, va con boleta"],
+        "context": [""]
+    },
+    {"tag": "whatsapp",
+        "patterns": ["Mi numero de telefono es 099343343","mi whatsapp es 0997860388","099.763.564","te paso mi whatsapp 099 727 433"],
+        "responses": ["Si, va con boleta"],
+        "context": [""]
+    },
+    {"tag": "garantia",
+        "patterns": ["tienen garantía?", "tienen garantia?", "tengo garantia?","los telofonos tienen garantia?","hay garantia"],
+        "responses": ["tenemos una garantía de 6 meses"],
+        "context": [""]
+    },
+    {"tag": "mercadopago",
+        "patterns": ["acceptan mercado pago?", "puedo usar mercado pago?", "hay mercado pago?","mercado pago?","usan mercado pago","tienen cuotas?"],
+        "responses": ["Si, aceptamos mercado pago con hast 12 cuotas","Aceptamos hasta 12 cuotas con mercado pago"],
+        "context": [""]
+    },
+    {"tag": "original",
+        "patterns": ["Son orginales?","son origniales de apple?","son de apple?","los telefonos son de apple?","los iphone son originales?"],
+        "responses": ["Los iphones vienen de apple directo, son originales"],
+        "context": [""]
+    }
+]
+}
